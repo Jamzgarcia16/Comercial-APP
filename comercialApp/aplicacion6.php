@@ -1,6 +1,6 @@
 <?php
 # NameSpace: Espacio de nombres, Contexto
-include '../../config_comercial/config_comercial6.php';
+include '../config_comercialApp/config_comercial6.php';
 
 if (isset($_GET["cerrar"])) {
 	if ($_GET["cerrar"]==session_id()) {

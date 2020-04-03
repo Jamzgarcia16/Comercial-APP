@@ -1,5 +1,5 @@
 <?php
-include '../../config_comercial/config_comercial6.php';
+include '../config_comercial/config_comercial6.php';
 $db = new subase();	# Creamos el objeto $db: instancia de la clase subase
 
 if (isset($_POST["id_menu"])) {	// Casos: Editar y Eliminar

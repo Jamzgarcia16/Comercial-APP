@@ -1,6 +1,6 @@
 <?php
 # NameSpace: Espacio de nombres, Contexto
-include '../../config_comercial/config_comercial6.php';
+include '../config_comercialApp/config_comercial6.php';
 
 # Supervariable global    $_POST 		$_GET
 $error1="Bienvenido, cuidado con el DOG!";

@@ -1,5 +1,5 @@
 <?php
-include '../../config_conjunto/config_conjunto6.php';
+include '../config_conjunto/config_conjunto6.php';
 
 
 if (isset($_POST["come_info_id"])) {

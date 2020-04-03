@@ -12,7 +12,7 @@ switch ($motor) {
 		define("IPSERVER", "127.0.0.1");
 		define("USERDB", "root");
 		define("PASSWD", "");
-		define("DB", "comercial_app");
+		define("DB", "comercial_AppREAL");
 		define("PORTDB", "3306");
 		define("DRIVER","mysqli.class.php");
 		break;
@@ -37,8 +37,8 @@ define("TOKEN_L34567","12435");
 #define("LOGINI", "login".VERSION.".php");
 
 $url1 = str_rot13("lala".date("HmsYd"));
-define("DIR_PROYECTO","comercialApp");
-define("DIR_INI","in-comercial");
+define("DIR_PROYECTO","Comercial-APP/comercialApp");
+define("DIR_INI","Comercial-APP/in-comercialApp");
 define("PROGRAMA", "/".DIR_PROYECTO."/$url1");
 define("LOGINI", "/".DIR_INI."/$url1");
 
@@ -46,7 +46,7 @@ define("LOGINI", "/".DIR_INI."/$url1");
 
 
 
-define("WEB", "C:/xampp/htdocs/comercialApp/"); # Windows
+define("WEB", "C:/xampp/htdocs/Comercial-APP/comercialApp"); # Windows
 #define("WEB", "/var/www/html/comercialApp/"); # Linux
 define("FOTO","fotos/");
 

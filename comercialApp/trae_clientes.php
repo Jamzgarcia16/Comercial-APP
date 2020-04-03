@@ -1,5 +1,5 @@
 <?php
-include '../../config_comercial/config_comercial6.php';
+include '../config_comercial/config_comercial6.php';
 
 
 if (isset($_POST["id_cliente"])) {
